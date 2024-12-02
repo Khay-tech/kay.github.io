@@ -1,0 +1,52 @@
+body{
+  margin: auto;
+  text-align: center;
+  background-color:skyblue ;
+}
+fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.div-main{
+  background-color: rgb(181, 242, 222);
+  border: none;
+  border-style: none;
+  border-radius: 30px 30px 20px 20px;
+
+}
+.div1{
+  height: 350px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  width: 300px;
+  padding: 5px;
+  margin: 7px;
+}
+input[type="button"]{
+  width: 150px;
+  background-color: rgb(60, 187, 73) ;
+  cursor: pointer;
+  border-color: rgb(44, 44, 171);
+}
+.fogpass:hover{
+  color: black;
+  cursor: pointer;
+}
+a{
+  color: rgb(216, 14, 17);
+}
+a:hover{
+  color: rgb(0, 128, 255);
+}
+.sign_log:hover{
+   color: azure;
+   opacity: 0.6;
+}
